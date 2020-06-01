@@ -12,7 +12,7 @@
 1. imvc-1.0.0.jar加入到classpath
 
 2. web.xml配置一个核心控制器<br>
-boot.imvc.servlet.core.DispatcherServlet<br><br>
+boot.imvc.servlet.core.DispatcherServlet<br>
 
 3. app.properties<br>
 是否自动封装数据 ：  init-database=true<br>
@@ -124,7 +124,11 @@ public class ServiceMain {
 
 ------------------------------------------
 
+8. 结果展示
+http://127.0.0.1:8080/web_test/demo/test<br>
+浏览器输出：<br>
 
+[{"uuid":"4c3c1202-8da7-4191-5f9d-55ed6bbb61b5","sort":1585819610726,"update_time":"2020-04-03 01:43:38","create_time":"2020-04-03 01:26:51","role":"ADMINISTRATOR","username":"admin","password":"$2a$10$VhLJS3LuTQODoRd0SuRseeqyLK0X2Poh/KILTmGDsegK8sAyhln02","avatar_url":"","last_ip":"60.166.113.25","last_time":"2020-04-03 01:43:38","size_limit":-1,"total_size_limit":-1,"total_size":1156599,"status":"OK"}]
 
 
 
