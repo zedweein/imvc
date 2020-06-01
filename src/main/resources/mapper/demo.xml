@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root source="first">
+	<sql id="tank30_user">
+		<![CDATA[
+			select * from tank30_user where username = '@name'
+		]]>
+	</sql>
+	
+	<sql id="help_relation" source="second">
+		<![CDATA[
+			select * from help_relation where help_topic_id = @help_topic_id
+		]]>
+	</sql>
+	
+</root>
